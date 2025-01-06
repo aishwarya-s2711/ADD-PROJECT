@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>---------------------------------------------Travel Tracker---------------------------------------------</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="sign-in" class="container">
+        <h2>Sign In</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <button id="signInButton">OK</button>
+    </div>
+
+    <div id="log-in" class="container" style="display:none;">
+        <h2>Log In</h2>
+        <label for="login-email">Email:</label>
+        <input type="email" id="login-email" placeholder="Enter your email">
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" placeholder="Enter your password">
+        <button id="logInButton">OK</button>
+    </div>
+
+    <div id="travel-tracker" class="container" style="display:none; min-height: 100vh;">
+        <h1>Travel Tracker</h1>
+
+        <p>"Travel is the only thing you buy that makes you richer."</p>
+
+
+
+        <h3 >Plan Your Trip</h3>
+        <p style="text-align: center;">Lets start our journey</p>
+                  <table>
+            <tr>
+                <th>Place</th>
+
+                <th>Date</th>
+
+                <th>Checklist</th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter place"></td>
+
+                <td><input type="date"></td>
+
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter place"></td>
+
+                <td><input type="date"></td>
+
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter place"></td>
+
+                <td><input type="date"></td>
+
+                <td><input type="checkbox"></td>
+            </tr> <tr>
+                <td><input type="text" placeholder="Enter place"></td>
+
+                <td><input type="date"></td>
+
+                <td><input type="checkbox"></td>
+            </tr> <tr>
+                <td><input type="text" placeholder="Enter place"></td>
+
+                <td><input type="date"></td>
+
+                <td><input type="checkbox"></td>
+            </tr> <tr>
+                <td><input type="text" placeholder="Enter place"></td>
+
+                <td><input type="date"></td>
+
+                <td><input type="checkbox"></td>
+            </tr> <tr>
+                <td><input type="text" placeholder="Enter place"></td>
+
+                <td><input type="date"></td>
+
+                <td><input type="checkbox"></td>
+            </tr>
+            
+            <tr>
+                <td><input type="text" placeholder="Enter place"></td>
+
+                <td><input type="date"></td>
+
+                <td><input type="checkbox"></td>
+            </tr> <tr>
+                <td><input type="text" placeholder="Enter place"></td>
+
+                <td><input type="date"></td>
+
+                <td><input type="checkbox"></td>
+            </tr>
+            
+            
+            
+
+                  </table>
+
+   
+<div>
+  <h1 style="text-align: center">NOW ABOUT MORE PLACE PLACES RIGHT NOW:)</h1>
+  <p style="text-align: left;">type here to know the details about the place</p>
+</div>
+        <div class="search">
+            <input type="text" id="searchBar" placeholder="Search...">
+            <button id="exploreButton">Explore</button>
+        </div>
+
+
+        <div id="image-section">
+            
+            <img src="c:\Users\Hp\Downloads\pexels-mcraftpix-21014.jpg" alt="Travel Image" class="side-image">
+        </div><div>
+<button id="mapButton">Map</button></div>
+
+
+<div>
+    <p style="text-align: center;">TICKET BOOKING</p>
+        <button id="bookTicketButton">Book Ticket</button></div>
+        <div id="ticketForm" style="display:none;">
+            <h3>Book  the Ticket now  </h3>
+            <label>Name: <input type="text" id="ticketName"></label>
+            <label>From:<input type="text" id="ticketfrom"></label>
+            
+            <label>No of ticket: <input type="text" id="ticketNumber"></label>
+            <label>Destination: <input type="text" id="ticketDestination"></label>
+            <button id="submitTicket">Submit</button>
+        </div>
+        <div id="ticketConfirmation" style="display:none;">Ticket Booked!</div>
+        <p style="text-align: left;">RATE US:</p>
+    
+        <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+        <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+        <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+        <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+        <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+<button id="submitRating">submit rating</button>
+
+<h1 style="background-color:rgb(48, 1, 48);">THANKS FOR VISITING THE WEBSITE</h1>
+</div>
+</body>
+</html>
